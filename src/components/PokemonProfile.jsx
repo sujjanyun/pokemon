@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from 'react';
 
 const PokemonProfile = ({characters}) => {
     const { id } = useParams();
