@@ -1,4 +1,4 @@
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PokemonList = ({characters}) => {
     console.log("This is the RESULTS: ", characters);
